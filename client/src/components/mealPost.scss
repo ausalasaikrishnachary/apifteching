@@ -1,0 +1,53 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2em; /* Increase font size */
+    width: 50%; /* Set width to cover 70% of the display */
+    margin: 0 auto; /* Center the form horizontally */
+
+    .meals-form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: start;
+        width: 100%; /* Set width to 100% to fill the container */
+    }
+
+    .checkbox-group {
+        margin-bottom: 20px;
+
+        label {
+            display: block;
+
+            input[type="checkbox"] {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+
+        label {
+            display: block;
+        }
+
+        input[type="date"],
+        input[type="time"],
+        textarea {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+    }
+
+    .heading {
+        text-align: center;
+    }
+}

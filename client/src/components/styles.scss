@@ -1,0 +1,27 @@
+.food-dashboard {
+    padding: 20px;
+    height: 100vh;
+    background: #f9f9f9; // Light white background color
+  
+    }
+
+    .search-bar {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 10px;
+    }
+  
+    .button-search-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .search-bar {
+        padding-right: 20px;
+        padding-top: 80px;
+      }
+  
+  }
+
+ 
